@@ -8,4 +8,9 @@ export class LoadPersons extends BaseAction {
 }
 
 export type PersonActions = LoadPersons;
-export type PersonActionTypes = LoadPersons;
+
+export enum PersonActionTypes {
+  LoadPersons = 'LoadPersons',
+  LoadFailed = 'LoadFailed'
+}
+

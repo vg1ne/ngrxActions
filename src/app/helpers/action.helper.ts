@@ -6,7 +6,7 @@ export function newType(target) {
   };
 }
 
-
+// just for compilator (implements Action )
 export class BaseAction implements Action {
   readonly type: any;
 }
