@@ -8,4 +8,4 @@ export class LoadPersons extends BaseAction {
 }
 
 export type PersonActions = LoadPersons;
-export type PersonActionTypes =
+export type PersonActionTypes = LoadPersons;
